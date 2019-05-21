@@ -1,0 +1,111 @@
+"#puzzleScreen[platform=ios]": {
+	// backgroundColor: "white",
+	fullscreen: true,
+	theme: "Theme.AppCompat.Fullscreen",
+	backgroundImage: "/images/Bg.jpg",
+	// backgroundColor:"#652ca0"
+	backgroundRepeat:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+
+"#puzzleScreen[platform=android]": {
+	// backgroundColor: "white",
+	fullscreen: true,
+	theme: "Theme.AppCompat.Fullscreen",
+	backgroundImage: "/images/Background.jpg",
+	// backgroundColor:"#652ca0"
+	backgroundRepeat:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+
+
+"#mainView":{
+	top: "0",
+},
+
+"#jigsawBoredContainer":{
+	height: "66%",
+	width: "90%",
+	top: "5%",
+	touchEnabled: false,
+	bool: true,
+	// borderColor:"yellow"
+},
+
+"#imgWrapper":{
+	borderRadius : 10,
+	backgroundColor:"white",
+	 // borderColor: "blue",
+	
+}
+
+
+"#jigsawBored":{
+	top: "14%",
+	touchEnabled: false,
+	// borderColor:"red"
+},
+
+"#img":{
+	top: "14%",
+	touchEnabled: false,
+	bool: true
+},
+
+"#subscriptionView":{
+	visible: false
+},
+
+"#headerTitle":{
+	left: "0",
+	height:"12%",
+	width:"100%",
+	top:"0",
+	// borderColor:"green"
+	
+}
+
+"#headerTitle[formFactor=tablet]":{
+	left: "0",
+	height:"11%",
+	width:"100%",
+	top:"0",
+	
+}
+
+"#headerLabel":{
+	text:""
+}
+
+"#headerLabel[formFactor=tablet]":{
+	text:"",
+}
+
+".backArrow":{
+	backgroundImage: "/images/backBtn.png",
+	// width:'15%',
+	// height:'55%',
+	width:50,
+	height:40,
+	left:'4%',
+	top:'25.8%',
+},
+
+".backArrow[formFactor=tablet]":{
+	backgroundImage: "/images/backBtn.png",
+	height:61,
+	width:77,
+	left: '4%',
+	top:'26%'
+},
+
+
+"#congratulations":{
+	touchEnabled: false,
+	visible: false
+}
+
+"#titleView":{
+	width:"70%",
+    right:"7%"
+}

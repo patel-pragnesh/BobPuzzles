@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: superawesome_module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2019 by Your Company
+
+# these should not be edited
+name: superawesome_module
+moduleid: com.usp.superawesome
+guid: 97dcde8b-e268-45a2-8c43-4e21614a51fd
+platform: iphone
+minsdk: 7.5.1.GA

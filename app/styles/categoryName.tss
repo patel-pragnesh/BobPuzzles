@@ -1,0 +1,197 @@
+
+"#categoryNameWindow[platform=ios]":{
+	backgroundImage:'/images/Bg.jpg',
+	orientationModes:[Ti.UI.PORTRAIT],
+	backgroundRepeat:true
+	
+}
+
+"#categoryNameWindow[platform=android]":{
+	backgroundImage:'/images/Background.jpg',
+	orientationModes:[Ti.UI.PORTRAIT],
+	backgroundRepeat:true
+	
+}
+
+/*"#categoryHeader":
+{
+	top: 0,
+	width: Titanium.UI.FILL,
+	height: "15%"
+}
+*/
+
+"#categoryHeader":
+{
+	top: '0',
+	width: Titanium.UI.FILL,
+	height: "15%"
+}
+
+"#categoryHeader[formFactor=tablet]":
+{
+	top: '0',
+	width: Titanium.UI.FILL,
+	height: "13%"
+}
+
+"#matrix[formFactor=handheld]":
+{
+	top: '15%',
+	height: '11%',
+	width: Titanium.UI.FILL,
+	id: 'matrix'
+}
+
+"#matrix[formFactor=tablet]":
+{
+	top: '12%',
+	height: '11%',
+	width: Titanium.UI.FILL,
+	id: 'matrix'
+}
+
+"#matrixType":
+{
+	width: Ti.UI.FILL,
+	height: '94%',
+	layout: 'horizontal'
+}
+
+
+".matrixOfAll[formFactor=handheld]":
+{
+	width: '20%',
+	height: '65%',
+	left: '4%',
+	top: '10%',
+	textAlign: 'center',
+	color: 'black',
+	font:{
+		fontFamily:'Cheeseburger',
+		fontSize:30,
+		
+	},
+}
+
+".matrixOfAll[formFactor=tablet]":
+{
+	width: '20%',
+	height: '65%',
+	left: '4%',
+	top: '10%',
+	textAlign: 'center',
+	color: 'black',
+	font:{
+		fontFamily:'Cheeseburger',
+		fontSize:45,
+		
+	},
+}
+
+// ".matrixOfAllLandscape":
+// {
+	// width: '15%',
+	// height: '75%',
+	// left: '2%',
+	// top: '10%',
+	// textAlign: 'center',
+	// color: 'black'
+// }
+
+"#monkeyImg[formFactor=tablet]":{
+	image:"/images/ImgMonkey.png", 
+	top:"0", 
+	right:"0", 
+	height:"17%", 
+	width:"22%" 
+}
+
+"#monkeyImg[formFactor=handheld]":{
+	image:"/images/ImgMonkey.png", 
+	top:"0%", 
+	right:"0", 
+	height:"100", 
+	width:"80" 
+}
+
+'#matrixOf2':
+{
+	backgroundColor : '#08c56a',
+	color:'white',
+	id: 'matrixOf2',
+	id2: 2,
+	borderRadius:10,
+	borderColor:"white" //#66f95b
+}
+
+
+'#matrixOf3':
+{
+	backgroundColor : '#2d69e3',
+	color:'white',
+	id: 'matrixOf3',
+	id2: 3,
+	borderRadius:10
+}
+
+
+'#matrixOf4':
+{
+	backgroundColor : '#ffa740',
+	color:'white',
+	id: 'matrixOf4',
+	id2: 4,
+	borderRadius:10
+}
+
+'#matrixOf5':
+{
+	backgroundColor : '#ff4a4a',
+	color:'white',
+	id: 'matrixOf5',
+	id2: 5,
+	borderRadius:10
+}
+
+'.matrixText[formFactor=handheld]':{
+	font:{
+		fontFamily:'Cheeseburger',
+		fontSize:25,
+		
+	},
+}
+
+'.matrixText[formFactor=tablet]':{
+	font:{
+		fontFamily:'Cheeseburger',
+		fontSize:45,
+		
+	},
+}
+
+
+
+"#selectImage[formFactor=handheld]":
+{
+	width:"99%",
+	height: Titanium.UI.FILL,
+	top: '25%',
+	layout: 'horizontal',
+	contentWidth: Ti.UI.FILL,
+}
+
+"#selectImage[formFactor=tablet]":
+{
+	width:"98%",
+	height: Titanium.UI.FILL,
+	top: '23%',
+	layout: 'horizontal',
+	contentWidth: Ti.UI.FILL,
+}
+
+"#subscription":{
+	visible: false
+}
+
+

@@ -1,0 +1,131 @@
+<Alloy>
+	<Window id='lockScreen'  class = "portrait" backgroundColor="rgba(0,0,0,0.5)">
+		<View id="popUpWindow">
+			<View id="opaqueView"></View>
+			<View id="extraView">
+				<View id ="popUpWindowChild" class="popUpWindowChild">
+					<Label id= "demo" class="demo"></Label>
+					<View id="lockKeyWraper" class="lockKeyWraper">
+						<Label id="code1" class="lockCode"></Label>
+						<Label id="code2" class="lockCode"></Label>
+						<Label id="code3" class="lockCode"></Label>
+					</View>
+					<View id="pickerWraper" class="pickerWraper">
+						<View id="selectedCodeBackground" class="selectedCodeBackground" ></View>
+						<Picker id="picker" platform="ios">
+							<PickerColumn >
+								<PickerRow>
+									<Label class="rowLabel">0</Label>
+								</PickerRow>
+								<PickerRow>
+									<Label class="rowLabel">1</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">2</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">3</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">4</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">5</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">6</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">7</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">8</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">9</Label>
+								</PickerRow>
+							</PickerColumn>
+							<PickerColumn >
+								<PickerRow  >
+									<Label class="rowLabel">0</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">1</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">2</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">3</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">4</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">5</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">6</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">7</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">8</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">9</Label>
+								</PickerRow>
+							</PickerColumn>
+							<PickerColumn >
+								<PickerRow  >
+									<Label class="rowLabel">0</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">1</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">2</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">3</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">4</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">5</Label>
+								</PickerRow>
+								<PickerRow  >
+									<Label class="rowLabel">6</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">7</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">8</Label>
+								</PickerRow>
+								<PickerRow >
+									<Label class="rowLabel">9</Label>
+								</PickerRow>
+							</PickerColumn>
+						</Picker>
+						<!-- Android -->
+						<View layout="horizontal" platform="android" width="85%"  height="30%">
+							<View id="column1">
+								<Label id="lockCode1" class="lockCodeAndroid" >0</Label>
+							</View>
+							<View id="column2">
+								<Label id="lockCode2" class="lockCodeAndroid">0</Label>
+							</View>
+							<View id="column3">
+								<Label id="lockCode3" class="lockCodeAndroid">0</Label>
+							</View>
+						</View>
+					</View>
+				</View>
+				<Label id="crossButton" class="crossButton"  onClick="closeLastView" ></Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

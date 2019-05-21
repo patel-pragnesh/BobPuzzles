@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="categoryNameWindow" class = "portrait">
+		<ImageView id="monkeyImg"></ImageView>
+		<View id="categoryHeader">
+			<ImageView id="backButton" class="backButton"></ImageView>
+			<Label id="categoryName" class="PageHeading"></Label>
+		</View>
+		<View id="matrix">
+			<View id="matrixType">
+				<Label id="matrixOf2" class="matrixOfAll" >2X2</Label>
+				<Label id="matrixOf3" class="matrixOfAll" >3X3</Label>
+				<Label id="matrixOf4" class="matrixOfAll" >4X4</Label>
+				<Label id="matrixOf5" class="matrixOfAll" >5X5</Label>
+			</View>
+		</View>
+		<ScrollView id="selectImage" onScroll="lazyload"></ScrollView>
+		<View id="subscription"></View>
+
+	</Window>
+</Alloy>

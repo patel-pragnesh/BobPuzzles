@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "175613054041",
+    "firebase_url": "https://bob-the-train-puzzles.firebaseio.com",
+    "project_id": "bob-the-train-puzzles",
+    "storage_bucket": "bob-the-train-puzzles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175613054041:android:78945e9e64280e33",
+        "android_client_info": {
+          "package_name": "com.usp.bobpuzzles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175613054041-8jkj7ndne5epff5nh5v4buspr9mumlp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8jC81DkQenhxTsk1qYAyOvBD4yKYLJJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

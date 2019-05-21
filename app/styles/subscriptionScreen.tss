@@ -1,0 +1,417 @@
+
+"#subscriptionScreen":{
+	//layout:"vertical",
+	orientationModes:[Ti.UI.PORTRAIT],
+	extendSafeArea : true
+}
+"#scrollview":{
+	layout:"vertical",
+	right:"10%",
+	width:Ti.UI.FILL,
+	left:"10%",
+	top:'14%'
+	// borderColor :' red'
+}
+
+".purpleBackground[platform=ios]":{
+	backgroundImage : "/images/Bg.jpg",
+	backgroundRepeat:true
+}
+
+".purpleBackground[platform=android]":{
+	backgroundImage : "/images/Background.jpg",
+	backgroundRepeat:true
+}
+
+"#categoryHeader":
+{
+	top: 0,
+	width: Titanium.UI.FILL,
+	height: "15%"
+}
+
+".backBtn[formFactor=tablet]":{
+	width:'70',
+	height:'50',
+	top:'25%',
+}
+".backBtn[formFactor=handheld]":{
+	width:'8%',
+	height:'65%',
+	left:'5%',
+	top:'25%',
+} 
+
+"#pageTitle":{
+	text : "UNLOCK PUZZLES"
+}
+
+".buttonView[formFactor=handheld]":{
+	top:"1%",
+	backgroundImage:"/images/GreenBtn.png",
+	layout:"horizontal",
+	width : Titanium.UI.FILL,
+	height : "10%",
+}
+
+".buttonView[formFactor=tablet]":{
+	top:"2%",
+	backgroundImage:"/images/GreenBtn.png",
+	layout:"horizontal",
+	width : Titanium.UI.FILL,
+	height : "10%",
+}
+
+".landScapeButtonView[formFactor=tablet]":{	
+	width : "47%",
+	height : "12%",
+	left : 0,
+	top : '5%'	,
+}
+".landScapeButtonView":{
+	
+	width : "47%",
+	height : "15%",
+	left : 0,
+	top : '5%'	
+}
+
+".buttonHeading":{
+	left:"3%",
+	width:"60%",
+	top:"25%",
+	color:'white',
+	font:{ 
+			fontSize: '28%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+	textAlign:'center',
+}
+
+
+".buttonHeading[platform=ios formFactor=tablet]":{
+	left:"10%",
+	width:"58%",
+	top:"20%",
+	color:'white',
+	font:{ 
+			fontSize: '40%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+	textAlign:'center',
+}
+
+".buttonHeading[platform=android formFactor=tablet]":{
+	left:"10%",
+	width:"58%",
+	top:"23%",
+	color:'white',
+	font:{ 
+			fontSize: '32%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+	textAlign:'center',
+	// borderColor : 'green'
+}
+
+".price":{
+	left:10,
+	width:"30%",
+	top:"25%",
+	color:'white',
+	font:{
+			fontSize: '21%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+}
+
+
+".price[formFactor=tablet]":{
+	left:"0%",
+	width:"30%",
+	height:'50%',
+	top:"25%",
+	top:'23%',
+	color:'white',
+	font:{
+			fontSize: '35%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false
+}
+
+// ".priceHeading":{
+	// top:"2%",
+	// color:'white',
+	// font:{
+			// fontSize: '25%', 
+    		// fontFamily: "CheeseBurger"
+	// },
+	// touchEnabled:false
+// }
+
+".priceHeading[formFactor=tablet]":{
+	top:"33%",
+	color : "#fff",
+	font:{
+			fontSize: '25%',
+    		fontFamily: "CheeseBurger"
+		},
+}
+
+".buy3[formFactor=tablet]":{
+	top:"5%",
+	width:"100%",
+	color : "#fff",
+	font:{
+			fontSize: '30%',
+    		fontFamily: "CheeseBurger"
+		},
+	 textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	 
+} 
+".buy3":{
+	top:"5%",
+	width:"100%",
+	color : "#fff",
+	font:{
+			fontSize: '15%',
+    		fontFamily: "CheeseBurger"
+		},
+	 textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	 
+} 
+".landscapeBuy3":{
+	top : '85%',
+	height : '10%',
+	width:"100%", 
+	color : "#fff",
+	font:{
+			fontSize: '15%',
+    		fontFamily: "CheeseBurger"
+		},
+	 textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	 
+}
+".buy3ForTablet":{
+	top : '85%',
+	height : '8%',
+	width:"100%", 
+	color : "#fff",
+	font:{
+			fontSize: '35%',
+    		fontFamily: "CheeseBurger"
+		},
+	 textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	 
+}
+".aaa":{
+	top:"5%",
+	width:"100%",
+	color : "#fff",
+	font:{
+			fontSize: '30%',
+    		fontFamily: "CheeseBurger"
+		},
+	 textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	 
+} 
+
+".adButtonView":{
+	top:"3%",
+	backgroundImage:"/images/BlueBtn.png",
+	layout:"vertical",
+	width : Titanium.UI.FILL, 
+	height : "10%",
+}
+".landscapeAdButtonView[formFactor=tablet]":{
+	width : '47%', 
+	height : "12%",
+	left : 0
+}
+".landscapeAdButtonView":{
+	width : '47%', 
+	height : "20%",
+	left : 0
+}
+
+".adButtonText":{
+	width : Ti.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	color : "#fff",
+	font:{
+			fontSize: 14,
+    		fontFamily: "Bubblegum"
+	},
+	bottom : '3'
+}
+
+".adButtonText[formFactor=tablet]":{
+	width : Ti.UI.SIZE,
+	height : Titanium.UI.SIZE,
+	color : "#fff",
+	font:{
+			fontSize: 14,
+    		fontFamily: "Bubblegum"
+	},
+	bottom : '3'
+}
+
+".adButtonHeading[formFactor=tablet]":{
+	top:"20%",
+	font:{
+			fontSize: '40%',
+    		fontFamily: "CheeseBurger"
+		},
+}
+
+".adButtonHeading":{
+	top:"5%",
+	font:{ 
+			fontSize: '30%',
+    		fontFamily: "CheeseBurger"
+		},
+	color:'white'
+}
+
+".adButtonBottomText[formFactor=tablet]":{
+	font:{
+			fontSize: '20%',
+    		fontFamily: "CheeseBurger"
+		},
+}
+".adButtonBottomText":{
+	font:{
+			fontSize: '16%',
+    		fontFamily: "CheeseBurger"
+		},
+}
+
+"#description":
+{
+	borderColor : '#ffe982',
+	width : Titanium.UI.FILL,
+	height : '50%',
+	borderRadius : 20,
+	borderWidth : 2,
+	top : '4%'
+	
+}
+
+"#descriptionHeader[formFactor=tablet]":
+{
+	width : Titanium.UI.FILL,
+	height : '12%',
+	backgroundColor : '#e68f1d',
+	top : 2
+}
+"#descriptionHeader":
+{
+	width : Titanium.UI.FILL,
+	height : '20%',
+	backgroundColor : '#e68f1d',
+	top : 2
+}
+
+"#descriptionText[formFactor=tablet]":
+{
+	font:{
+			fontSize: '45%',
+    		fontFamily: "CheeseBurger"
+		},
+		color : 'white'
+} 
+"#descriptionText":
+{
+	font:{
+			fontSize: '40%',
+    		fontFamily: "CheeseBurger"
+		},
+		color : 'white',
+		 
+}
+
+"#contentText[formFactor=tablet]":
+{
+	top : '12%',
+	backgroundColor : '#41288c',
+	width : Titanium.UI.FILL,
+	height : Titanium.UI.FILL
+}
+"#contentText[formFactor=handheld]":
+{
+	top : '20%',
+	backgroundColor : '#41288c',
+	width : Titanium.UI.FILL,
+	height : Titanium.UI.FILL
+}
+"#anotherView":
+{
+	visible: false
+}
+
+
+".Label1":{
+	
+	font:{
+			fontSize: '23%',
+    		fontFamily: "CheeseBurger"
+	},
+	textAlign:'center',
+	width:'90%'
+}
+
+".Label1[formFactor=tablet]":{
+	
+	font:{
+			fontSize: '30%',
+    		fontFamily: "CheeseBurger"
+	},
+	textAlign:'center',
+	width:'90%'
+}
+
+
+".restoreButtonView[formFactor=handheld]":{
+	top:"3%",
+	backgroundImage:"/images/SubscribeBtn.png",
+	width : Titanium.UI.FILL,
+	height : "10%",
+	textAlign:'center'
+}
+
+".restoreButtonView[formFactor=tablet]":{
+	top:"3%",
+	backgroundImage:"/images/SubscribeBtn.png",
+	width : Titanium.UI.FILL,
+	height : "10%",
+	textAlign:'center'
+}
+
+".restoreButtonHeading":{
+	top:"25%",
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color:'white',
+	font:{ 
+			fontSize: '24%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+}
+
+".restoreButtonHeading[formFactor=tablet]":{
+	top:"25%",
+	textAlign:Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color:'white',
+	font:{ 
+			fontSize: '40%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+}
+
+

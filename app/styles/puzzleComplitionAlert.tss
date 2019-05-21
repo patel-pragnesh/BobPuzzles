@@ -1,0 +1,139 @@
+
+"#alertPage":
+{
+	backgroundColor : "rgba(0,0,0,0.5)",
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+"#blackBackground":
+{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	backgroundColor:"black", 
+	opacity:"0.6", 
+	touchEnabled:"false",
+}
+
+"#alertPopup":
+{
+	backgroundImage : '/images/imageDownloadSprite/DownloadPopupBg.png',
+	width:"300",
+	height:"236.25"
+},
+
+
+"#alertPopup[formFactor=tablet]":
+{
+	backgroundImage : '/images/imageDownloadSprite/DownloadPopupBg.png',
+	width:"614.4",
+	height:"384"
+}
+
+"#textWrapper":{
+	top:"4%",
+	height : "65%",
+	width:"90%",
+}
+
+"#textField":
+{
+	font:{
+		fontFamily:'CheeseBurger',
+		fontSize:"25%",
+	},
+}
+"#textField[formFactor=tablet]":{
+	font:{
+		fontFamily:'CheeseBurger',
+		fontSize:"40%",
+	},
+}
+
+".textFieldClass":{
+	height : Titanium.UI.SIZE,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color : 'white'
+}
+
+"#subscribeBtn":{
+	backgroundImage:"/images/OrangeBtnSmall.png",
+	width:"40%",
+	left:"4%",
+	
+	
+},
+
+"#cancelBtn[formFactor=tablet]":{
+	left:"8%",
+	backgroundImage:"/images/OrangeBtnSmall.png",
+	width:"40%",
+	
+},
+
+"#buttonView[formFactor=handheld]":{
+	layout:"horizontal", 
+	 height:"19%",  
+	 bottom:"15%", 
+	 width:"100%"
+}
+
+"#buttonView[formFactor=tablet]":{
+	 layout:"horizontal", 
+	 height:"19%",  
+	 bottom:"15%", 
+	 width:"94%"
+}
+
+"#cancelBtn[formFactor=handheld]":{
+	left:"8%",
+	backgroundImage:"/images/OrangeBtnSmall.png",
+	width:"40%",
+	
+},
+
+"#subscribe":{
+	text:"subscribe",
+	color:"white",
+	font:{
+		fontSize:"25%",
+		fontFamily:"CheeseBurger"
+	},
+	
+},
+
+"#subscribe[formFactor=tablet]":{
+	text:"subscribe",
+	color:"white",
+	font:{
+		fontSize:"40%",
+		fontFamily:"CheeseBurger"
+	},
+	
+},
+
+"#cancel":{
+	text:"cancel",
+	color:"white",
+	font:{
+		fontSize:"25%",
+		fontFamily:"CheeseBurger"
+	},
+	
+},
+
+"#cancel[formFactor=tablet]":{
+	text:"cancel",
+	color:"white",
+	font:{
+		fontSize:"40%",
+		fontFamily:"CheeseBurger"
+	},
+	
+},
+
+".ok_cancel_labelClass":{
+	touchEnabled:false,
+	color : 'white'
+}
+
+

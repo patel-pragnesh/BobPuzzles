@@ -1,0 +1,118 @@
+
+"#unlockImagePage":{
+	backgroundImage:'/images/Background.jpg'
+}
+
+
+"#header":
+{
+	top: 0,
+	width: Titanium.UI.FILL,
+	height: "15%"
+}
+
+"#unlockImageHeader[platform=ios formFactor=handheld]":
+{
+	color: 'white',
+	font:
+	{
+		fontSize: '25', 
+		fontFamily:'BubbleGum'
+	},
+	text:'All Images',
+	touchEnabled:false
+}
+
+"#unlockImageHeader[platform=ios formFactor=tablet]":
+{
+	color: 'white',
+	font:
+	{
+		fontSize: '40', 
+		fontFamily:'BubbleGum'
+	},
+	text:'All Images',
+	touchEnabled:false
+}
+
+"#selectImage[platform=ios formFactor=handheld]":
+{
+	width:"98%",
+	height: '70%',
+	// top: '25%',
+	layout: 'horizontal',
+	contentWidth: Ti.UI.FILL,
+}
+
+"#selectImage[platform=ios formFactor=tablet]":
+{
+	width:"98%",
+	height: Titanium.UI.FILL,
+	top: '23%',
+	layout: 'horizontal',
+	contentWidth: Ti.UI.FILL,
+}
+
+
+'#unlockBtnView':
+{
+	height : "8%", 
+	width : "45%", 
+	bottom : "2%",
+	
+}
+
+
+"#count":
+{
+	font:{
+		fontFamily:'BubbleGum',
+		fontSize:22,
+		
+	},
+	color:'white'
+	// borderColor :"red"
+}
+
+"#countView":
+{
+	height : "5%", 
+	width : Ti.UI.SIZE, 
+	bottom : "9%", 
+	layout :"horizontal"
+}
+
+"#totalNumberOfCategoriesToUnlock":{
+	font:{
+		fontFamily:'BubbleGum',
+		fontSize:22,
+		
+	},
+	text:"/2",
+	color : 'white'
+}
+
+
+	
+"#unlock":{
+	// bottom: 10,
+	text: "Unlock",
+	color: "white",
+	// width:"60%",
+	height:"100%",
+	font:{
+		fontSize: 22,
+		fontFamily:'BubbleGum'
+	},
+	textAlign: "center",
+	// borderColor:'#e6993f',
+	// borderRadius:20,
+	// borderWidth:3
+}
+
+
+"#subscription":{
+	visible: false
+}
+
+

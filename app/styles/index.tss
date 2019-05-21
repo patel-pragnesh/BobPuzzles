@@ -1,0 +1,404 @@
+// ".container": {
+	// backgroundColor:"white"
+// }
+// 
+// "Label": {
+	// width: Ti.UI.SIZE,
+	// height: Ti.UI.SIZE,
+	// color: "#000"
+// }
+// 
+// "#label": {
+	// font: {
+		// fontSize: 12
+	// }
+// }
+
+
+
+"#header":
+{
+	width: 72,
+	height: 82,
+	right: '2%',
+	top: '3%'
+}
+
+"#startPage[platform=ios formFactor=tablet]":
+{
+	backgroundImage: '/images/Bg.jpg',
+	extendSafeArea: false,
+	top: 0,
+	backgroundRepeat:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+"#startPage[platform=ios formFactor=handheld]":
+{
+	backgroundImage: '/images/Bg.jpg',
+	extendSafeArea: true,
+	top: 0,
+	backgroundRepeat:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+"#startPage[platform=android formFactor=tablet]":
+{
+	backgroundImage: '/images/Background.jpg',
+	backgroundColor: 'black',
+	extendSafeArea: false,
+	top: 0,
+	backgroundRepeat:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+"#startPage[platform=android formFactor=handheld]":
+{
+	backgroundImage: '/images/Background.jpg',
+	backgroundColor: 'black',
+	extendSafeArea: false,
+	top: 0,
+	backgroundRepeat:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+"#gameName[formFactor=tablet]":{
+
+	backgroundImage: '/images/Logo.png',
+	// height:'20%',
+	// width:'45%',
+	height: '200',
+	width: '350',
+	top: '8%',
+	touchEnabled: false
+}
+
+"#gameName[formFactor=handheld]":{
+
+	backgroundImage: "/images/Logo.png",
+	// height:'24%',
+	// width:'65%',
+	height: '130',
+	width: '220',
+	top: '9%',
+	touchEnabled: false
+}
+
+
+
+
+".bigText":
+{
+	color: 'black',
+	font:
+	{
+		fontSize: '38dp'
+	}
+}
+//**********rotation*******************
+
+// ".demo[if=Alloy.Globals.isPortrait]":{
+// color:"white",
+// height:"10%",
+// width:"30%",
+// text:"text",
+// left:"0"
+// }
+//
+// ".demo[if=Alloy.Globals.isLandscape]":{
+// color:"white",
+// height:"10%",
+// width:"90%",
+// text:"text",
+// left:"0"
+// }
+
+//**********rotation*******************
+
+"#setting[formFactor=tablet]":{
+	image: '/images/ParentalBtn.png',
+	height: '150',
+	width: '150',
+	top: 0,
+	right: 0
+}
+
+"#setting[formFactor=handheld]":{
+	image: '/images/ParentalBtn.png',
+	height: '95',
+	width: '95',
+	top: 0,
+	right: -7
+}
+
+"#mustache":{
+	width: "63%",
+	height: "18%",
+	top: "40%",
+	backgroundImage: "/images/Mustache.png",
+},
+
+"#settingLock[formFactor=tablet]":{
+	top: '35%',
+	width: "30%",
+	height: "35%",
+	left: "13%",
+	image: '/images/Lock.png'
+}
+
+"#settingLock[formFactor=handheld]":{
+	top: '35%',
+	width: "30%",
+	height: "35%",
+	left: "13%",
+	image: '/images/Lock.png'
+}
+
+"#setting":{
+	backgroundImage: '/images/ParentalBtn.png',
+	height: '12%',
+	width: '24%',
+	top: '1%',
+	right: '0%'
+}
+
+"#middleView[formFactor=handheld]":
+{
+	top: '32%',///
+	bottom: '20%',///
+	width: Titanium.UI.FILL
+}
+
+"#middleView[formFactor=tablet]":
+{
+	top: '29%',///
+	bottom: '12%',///
+	width: Titanium.UI.FILL
+}
+
+"#snakeImg[formFactor=tablet]":{
+	image: "/images/ImgSnake.png",
+	height: "87%",
+	width: "18%",
+	right: '0%',
+	top: "2%",
+	touchEnabled: "false"
+}
+
+"#snakeImg[formFactor=handheld]":{
+	image: "/images/ImgSnake.png",
+	height: "60%",
+	width: "27%",
+	right: "0%",
+	top: "2%",
+	touchEnabled: "false"
+}
+
+"#container":///
+{
+	// borderColor :"red",
+	// width : "90%",
+	// height : "90%",
+	left: 0,
+	right: 0,
+	top: 0,
+	bottom: 0,
+	// layout: "horizontal",
+	horizontalWrap: true
+}
+
+"#container[formFactor=tablet]":///
+{
+	// width : "90%",
+	// height : "90%",
+	left: "1%",
+	right: "1%",
+	top: "1%",
+	bottom: "40%",
+	// layout: "horizontal",
+	horizontalWrap: true,	
+	// borderColor : 'red'
+}
+
+"#squarePieceView[platform=ios formFactor=tablet]":{///
+	width: 190,
+	height: 190,
+	// borderColor:'green',
+	// width : '35%',
+	// height : '75%',
+	top: 5,
+	left: '12%'
+}
+
+"#squarePieceView[platform=android formFactor=tablet]":{///
+	width: 100,
+	height: 100,
+	// borderColor:'green',
+	// width : '35%',
+	// height : '75%',
+	top: 5,
+	left: '5%'
+}
+
+"#squarePieceView[formFactor=handheld]":{///
+	width: 160,
+	height: 160,
+	// borderColor:'green',
+	// width : '50%',
+	// height : '60%',
+	top: 5,
+	left: '1%'
+}
+
+"#jigsawPieceView[platform=android formFactor=tablet]":{///
+	width:100,
+	height:100,
+	// width: '35%',
+	// height: '75%',
+	// borderColor:'green',
+	top: '27%',
+	right: '5%'
+}
+
+"#jigsawPieceView[platform=ios formFactor=tablet]":{///
+	width:190,
+	height:190,
+	// width: '35%',
+	// height: '75%',
+	// borderColor:'green',
+	top: '27%',
+	right: '12%'
+}
+
+
+
+"#jigsawPieceView[formFactor=handheld]":{///
+	width: 160,
+	height: 160,
+	// width : '50%',
+	// height : '60%',
+	top: '22%',
+	right: '1%'
+}
+
+
+"#bgBobimage[formFactor=tablet]":{
+	image: "/images/ImgBob.png",
+	height: "37%",
+	width: "65%",
+	bottom: "0",
+	touchEnabled: "false"
+}
+
+"#bgBobimage[formFactor=handheld]":{
+	image: "/images/ImgBob.png",
+	// height:"35%",
+	// width:"75%",
+	// height: 190,
+	// width: Ti.UI.FILL,
+	bottom: "0",
+	touchEnabled: "false",
+	// borderColor:'red'
+}
+
+".piece":
+{
+	width: '50%',
+	height: '100%',
+	top: 1
+}
+
+"#squarePiece":
+{
+	image: '/images/squarePiece.png',
+	left: '0%',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+"#jigsawPiece":
+{
+
+	image: '/images/jigsawPiece.png',
+	id: 'jigsawPiece',
+	left: '0%',
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL
+}
+
+
+"#footer[formFactor=handheld]":///
+{
+	bottom: 0,
+	width: Titanium.UI.FILL,
+	height: "15%"
+}
+
+"#footer[formFactor=tablet]":///
+{
+	bottom: '1%',
+	width: Titanium.UI.FILL,
+	height: "8%"
+}
+
+
+"#label[formFactor=tablet]":
+{
+	height: '50%',
+	width: Titanium.UI.FILL,
+	text: 'Unlock More Puzzles',
+	color: 'white',
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '35%'
+	},
+	textAlign:'center',
+	touchEnabled: false
+}
+
+"#label[platform=ios formFactor=handheld]":
+{
+	height: '50%',
+	width: Titanium.UI.FILL,
+	text: 'Unlock More Puzzles',
+	color: 'white',
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '25%'
+	},
+	textAlign:'center',
+	touchEnabled: false
+}
+"#label[platform=android formFactor=handheld]":
+{
+	height: Titanium.UI.FILL,
+	width: Titanium.UI.FILL,
+	text: 'Unlock More Puzzles',
+	color: 'white',
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '25'
+	},
+	textAlign:'center',
+	touchEnabled: false
+}
+
+"#subscription[formFactor=handheld]":
+{
+	height:Ti.UI.FILL,
+	width: "70%",
+	bottom: '5%'
+}
+
+"#subscription[formFactor=tablet]":
+{
+	height:Ti.UI.FILL,
+	width: "70%",
+	bottom: '5%'
+}
+
+"#anotherView":
+{
+	visible: false,
+	zIndex:1
+}

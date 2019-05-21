@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="startPage" class = "portrait">
+		<Label id="gameName"></Label>
+		<View id="setting">
+			<View id="mustache" touchEnabled="false"></View>
+			<ImageView id="settingLock" touchEnabled="false"></ImageView>
+		</View>
+		<View id="middleView">
+			<View id="container">
+				<ImageView id="snakeImg"></ImageView>
+				<View id="squarePieceView">
+					<ImageView id="squarePiece" />
+				</View>
+				<View id="jigsawPieceView">
+					<ImageView id="jigsawPiece"  />
+				</View>
+			</View>
+		</View>
+		<View id"footer" zIndex="4">
+			<View id="subscription" >
+				<ImageView image="/images/SubscribeBtn.png"  touchEnabled="false"></ImageView>
+				<Label id="label"></Label>
+			</View>
+			
+		</View>
+		<ImageView id="bgBobimage"></ImageView>
+		<View id="anotherView"></View>
+	</Window>
+</Alloy>  

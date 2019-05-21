@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="unlockImagePage" class = "portrait">
+		<View id="header">
+			<Label id="unlockImageHeader"></Label>	
+		</View>
+		<ScrollView id="selectImage"></ScrollView>
+		<View id="countView" >
+			<Label id="count"/>
+			<!-- <Label font="fontSize : 22,fontFamily : 'BubbleGum'" color="white">/</Label> -->
+			<Label id="totalNumberOfCategoriesToUnlock"></Label>
+		</View>
+		<View id="unlockBtnView">
+			<!-- <ImageView height="75%" image="/images/GreenBtn.png" width="90%"> -->
+			<ImageView height="85%" image="/images/UnlockBtn.png" width="Ti.UI.SIZE">
+			</ImageView>
+			<Label id="unlock"></Label>
+		</View>
+		
+		<View id="subscription"></View>
+	</Window>
+</Alloy>

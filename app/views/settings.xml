@@ -1,0 +1,85 @@
+<Alloy>
+	<Window id="settings" class = "portrait">
+		
+		<View id="categoryHeader">
+			<ImageView id="backButton" class="backButton"></ImageView>
+			<Label id="categoryName" class="PageHeading"></Label>
+		</View>
+		<ScrollView id ="socialShare" scrollType="vertical" layout="vertical" top="15%" contentWidth="Ti.UI.FILL">
+			
+			<View id="toggleBtn" class="iconsView">
+				<View id="sound_on_off"></View>
+				<View id="music_on_off"></View>
+			</View>
+			
+			<View class = "buttonView" id="removeAds">
+				<Label class = "buttonHeading">Remove Ads</Label>
+				<Label class="price" id="removeAdsPrice"></Label>
+			</View>
+			
+			<View id="facebook" class="iconsView">
+				<Label id="facebookLbl" text="Like Us" class="labels"></Label>
+			</View>
+			
+			<View id="twitter" class="iconsView">
+				<Label id="twitterLbl" text="Follow Us" class="labels"></Label>
+			</View>
+			
+			<View id="share" class="iconsView" >
+				<Label id="shareIcon" class="widgetsIcon"></Label>
+				<Label id="shareLbl" text="Share" class="labels"></Label>
+			</View>
+			
+			<View id="rateUs" class="iconsView">
+				<Label id="rateUsIcon" class="widgetsIcon"></Label>
+				<Label id="rateUsLbl" text="Rate Us" class="labels"></Label>
+			</View>
+			
+			
+			<View id="privacyPolicy" class="iconsView" >
+				<Label id="privacyIcon" class="widgetsIcon"></Label>
+				<Label id="privacyLbl" text="Privacy Policy" class="labels"></Label>
+			</View>
+			
+			<View id="subscribe" class="iconsView" >
+				<ImageView id="subscribeIcon" class="widgetsIcon"></ImageView>
+				<Label id="subscribeLbl" text="Unlock More Puzzles" ></Label>
+			</View>
+			
+			
+			<View id="visitUs" class="iconsView" >
+				<Label id="visitUsIcon" class="widgetsIcon"></Label>
+				<Label id="visitUsLbl" text="Visit Us" class="labels"></Label>
+			</View>
+			
+			<View id="emailUs" class="iconsView bottom160">
+				<Label id="emailUsIcon" class="widgetsIcon"></Label>
+				<Label id="emailUsLbl" text="Email Us" class="labels"></Label>
+			</View>
+			
+			<!-- <View id="blank" class="iconsView" visible="false">
+				
+			</View> -->
+			
+			<!-- <View id="downloadImages" class="iconsView" bottom="5%">
+				<Label id="downloadImagesIcon" class="widgetsIcon"></Label>
+				<Label id="downloadImagesLbl" text="Download Image" class="labels"></Label>
+			</View> -->
+		</ScrollView>
+		
+		<!-- <View id="progressBarView">
+			<View backgroundColor="black" opacity="0.7" touchEnabled="false"></View>
+			<View id="progressBarContainer">
+				<View id="downloadBarContainer" borderColor="red">
+					<ImageView id="DownloadBarBg"></ImageView>
+					<View id="DownloadBarBgColor"></View>
+				</View>
+				<Label id="label"></Label>,
+				<ImageView id="btn">
+					<Label id="ok_cancel_label"></Label>
+				</ImageView>
+			</View>
+		</View> -->
+		<View id="anotherView"></View>
+	</Window>
+</Alloy>

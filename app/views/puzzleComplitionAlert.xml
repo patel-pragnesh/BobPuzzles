@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="alertPage" class = "portrait">
+		<View id="blackBackground"></View>
+		<View id="alertPopup">
+			<View id = "textWrapper">
+				<Label id="textField" class ="textFieldClass" ></Label>
+			</View>
+			<View id="buttonView">
+				<View id="cancelBtn">
+					<Label id="cancel" class= "ok_cancel_labelClass"></Label>
+				</View>
+				<View id="subscribeBtn">
+					<Label id="subscribe" class= "ok_cancel_labelClass"></Label>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

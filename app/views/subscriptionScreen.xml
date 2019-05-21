@@ -1,0 +1,36 @@
+<Alloy>
+	<Window id = "subscriptionScreen" class = "purpleBackground portrait">
+		<View id="categoryHeader">
+			<ImageView id="backBtn" class="backButton"></ImageView>
+			<Label id="pageTitle" class="PageHeading"></Label>
+		</View>
+		<ScrollView id="scrollview">
+
+			<View class = "buttonView" id="allCategories">
+				<Label class = "buttonHeading">Unlock 90 Puzzles</Label>
+				<Label class="price" id="allPrice" ></Label>
+
+				<!-- <Label class = "buttonHeading priceHeading">UNLOCK ALL</Label>
+				<Label class="price priceHeading" id="allPrice" ></Label> -->
+			</View>
+			<View class = "adButtonView" onClick="showVideo" id="adButtonView">
+				<Label class = "adButtonHeading adButtonText">WATCH AD</Label>
+				<Label class="adButtonBottomText adButtonText">To Unlock 10 puzzles</Label>
+			</View>
+			<View id="description">
+				<View id="descriptionHeader">
+					<Label id="descriptionText">Details</Label>
+				</View>
+				<View id="contentText">
+					<Label color="white" top="20" class="Label1" horizontalWrap="true">Watch Ad option will unlock next 10 puzzles.</Label>
+					<Label color="white" top="80" class="Label1" horizontalWrap="true">Unlock 90 Puzzles option will unlock the remaining puzzles</Label>
+				</View>
+			</View>
+			<View class = "restoreButtonView" id="restorePurchase" platform="ios">
+				<Label class = "restoreButtonHeading">Restore Purchases</Label>
+			</View>
+		</ScrollView>
+		<View id="anotherView"></View>
+
+	</Window>
+</Alloy>

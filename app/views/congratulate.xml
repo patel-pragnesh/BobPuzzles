@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="congratulatePopup" class = "portrait">
+		<ImageView id="raysWheel"></ImageView>
+		<ImageView id="goodJob"></ImageView>
+	</View>
+</Alloy>

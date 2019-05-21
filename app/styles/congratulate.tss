@@ -1,0 +1,32 @@
+"#congratulatePopup":{
+	//layout: "horizontal",
+	width: "100%",
+	height: "100%",
+	//borderColor:"red"
+}
+
+"#goodJob[formFactor=handheld]":{
+	height:"380",
+	width:"430",
+	// top:"54",
+	// center:{x:160,y:352}
+}
+
+"#raysWheel[formFactor=handheld]":{
+	height:"568",
+	width:"568",
+	// center:{x:160,y:352}
+}
+
+"#raysWheel[formFactor=tablet]":{
+	height:"768",
+	width:"768",
+	// top:"0%"
+}
+
+"#goodJob[formFactor=tablet]":{
+	height:"600",
+	width:"697",
+	// top:"131",
+	// top:"0%"
+}

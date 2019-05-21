@@ -1,0 +1,80 @@
+
+"#alertPage":
+{
+	backgroundColor : "rgba(0,0,0,0.5)",
+	zIndex:1,
+}
+
+"#blackBackground":
+{
+	width: Titanium.UI.FILL,
+	height: Titanium.UI.FILL,
+	backgroundColor:"black", 
+	opacity:"0.6", 
+	touchEnabled:"false",
+}
+
+"#alertPopup":
+{
+	backgroundImage : '/images/imageDownloadSprite/DownloadPopupBg.png',
+	width:"90%",
+	height:"60%"
+}
+
+"#textWrapper":{
+	top:"8%",
+	height : "60%",
+	width:"86%",
+}
+
+"#textField":
+{
+	font:{
+		fontFamily:'Cheeseburger',
+		fontSize:"25%",
+	},
+	color:"white"
+}
+"#textField[platform=ios formFactor=tablet]":{
+	font:{
+		fontFamily:'Cheeseburger',
+		fontSize:"40%",
+	},
+	color:"white"
+}
+
+".textFieldClass":{
+	height : Titanium.UI.SIZE,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color : 'white'
+}
+
+"#btn":{
+	backgroundImage:"/images/imageDownloadSprite/OrangeBtn.png",
+	width:"80%",
+	height:"20%",
+	bottom:"12%"
+},
+
+"#ok_cancel_label":{
+	font:{
+		fontSize:"22%",
+		fontFamily:"cheeseburger"
+	},
+	height : Titanium.UI.SIZE,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	
+},
+"#ok_cancel_label[platform=ios formFactor=tablet]":{
+	font:{
+		fontSize:"40%",
+		fontFamily:"cheeseburger"
+	},
+	height : Titanium.UI.SIZE,
+	textAlign : Titanium.UI.TEXT_ALIGNMENT_CENTER,
+},
+
+".ok_cancel_labelClass":{
+	touchEnabled:false,
+	color : 'white'
+}

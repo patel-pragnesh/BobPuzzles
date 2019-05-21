@@ -1,0 +1,565 @@
+
+
+
+"#socialShare":{
+	top:'1%'
+}
+
+"#settings[platform=ios]":{
+	backgroundImage:'/images/Bg.jpg',
+	backgroundRepeat:true,
+	extendSafeArea:true,
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+"#settings[platform=android]":{
+	backgroundImage:'/images/Background.jpg',
+	backgroundRepeat:true,
+	extendSafeArea:false,
+	orientationModes:[Ti.UI.PORTRAIT]
+}
+
+".buttonView[formFactor=handheld]":{
+	top:"2%",
+	backgroundImage:"/images/GreenBtn.png",
+	layout:"horizontal",
+	width : Titanium.UI.FILL,
+	height:50,
+	left:"12%", 
+	right:"12%",
+}
+
+".buttonView[formFactor=tablet]":{
+	backgroundImage:"/images/GreenBtn.png",
+	layout:"horizontal",
+	 height:"8%",
+	top:"2%", 
+	left:"20%", 
+	 right:"20%"
+}
+
+".buttonHeading":{
+	left:"10%",
+	width:"58%",
+	color:'white',
+	top:"19%",
+	font:{ 
+			fontSize: '25%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+	textAlign:'center'
+}
+
+".buttonHeading[formFactor=tablet]":{
+	left:"10%",
+	width:"58%",
+	color:'white',
+	font:{ 
+			fontSize: '40%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false,
+	textAlign:'center'
+}
+
+".price":{
+	left:"0%",
+	width:"30%",
+	top:"23%",
+	color:'white',
+	font:{
+			fontSize: '21%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false
+}
+
+".price[formFactor=tablet]":{
+	left:"0%",
+	width:"30%",
+	height:'50%',
+	//top:"25%",/
+	color:'white',
+	font:{
+			fontSize: '35%', 
+    		fontFamily: "CheeseBurger"
+	},
+	touchEnabled:false
+}
+
+"#categoryHeader":
+{
+	top : 0,
+	width : Titanium.UI.FILL,
+	height : "15%"
+
+}
+
+"#categoryHeader[platform=ios formFactor=tablet]":
+{
+	top : 0,
+	width : Titanium.UI.FILL,
+	height : "15%",
+	font:
+	{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	},
+
+}
+
+"#categoryHeader[platform=android formFactor=tablet]":
+{
+	top : 0,
+	width : Titanium.UI.FILL,
+	height : "15%",
+	font:
+	{
+		// fontSize: '40',
+		fontFamily:'Cheeseburger'
+	},
+}
+
+
+"#categoryName":
+{
+	left:'15%',
+	touchEnabled:false
+}
+
+"#categoryName[platform=ios formFactor=tablet]":
+{
+	left:'23%',
+	touchEnabled:false,
+}
+
+"#categoryName[platform=android formFactor=tablet]":
+{
+	left:'23%',
+	touchEnabled:false,
+	width : Titanium.UI.SIZE
+}
+ 
+".iconsView":{
+	 height:50, 
+	 // width:Ti.UI.FILL,
+	 touchEnabled:true,
+	 top:"2%", 
+	 left:"12%", 
+	 right:"12%"
+} 
+
+".bottom160":{
+	bottom:15
+}
+
+".iconsView[formFactor=tablet]":{
+	 height:"8%", 
+	 // width:'60%',
+	 touchEnabled:true,
+	 top:"2%", 
+	 left:"20%", 
+	 right:"20%"
+}
+
+
+ 
+".widgetsIcon":{
+	left:'12%',
+	touchEnabled:false
+}
+
+".labels":{
+	color:'white',
+	left:"35%",
+	touchEnabled:false,
+	font:{
+		fontSize: '25',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+".labels[platform=ios formFactor=tablet]":{
+	color:'white',
+	left:"35%",
+	touchEnabled:false,
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+".labels[platform=android formFactor=tablet]":{
+	color:'white',
+	left:"35%",
+	touchEnabled:false,
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+".bottom15":{
+	bottom:15
+}
+
+
+
+
+/*********buttonLabel*********/
+
+"#sound_on_off[platform=ios formFactor=handheld]":{
+	backgroundImage:"/images/toggle_button/SoundOn.png",
+	width:"45%",
+	bool:true,
+	left:0
+}
+
+"#music_on_off[platform=ios formFactor=handheld]":{
+	backgroundImage:"/images/toggle_button/MusicOn.png",
+	width:"45%",
+	bool:true,
+	right:0
+}
+
+"#sound_on_off[platform=android formFactor=handheld]":{
+	backgroundImage:"/images/toggle_button/SoundOn.png",
+	width:"47%",
+	bool:true,
+	left:0
+}
+
+"#music_on_off[platform=android formFactor=handheld]":{
+	backgroundImage:"/images/toggle_button/MusicOn.png",
+	width:"47%",
+	bool:true,
+	right:0
+}
+
+"#sound_on_off[platform=ios formFactor=tablet]":{
+	backgroundImage:"/images/toggle_button/SoundOn.png",
+	width:"38%",
+	bool:true,
+	left:0
+}
+
+"#music_on_off[platform=ios formFactor=tablet]":{
+	backgroundImage:"/images/toggle_button/MusicOn.png",
+	width:"38%",
+	bool:true,
+	right:0
+}
+
+
+
+"#sound_on_off[platform=android formFactor=tablet]":{
+	backgroundImage:"/images/toggle_button/SoundOn.png",
+	width:"45%",
+	bool:true,
+	left:0
+}
+
+"#music_on_off[platform=android formFactor=tablet]":{
+	backgroundImage:"/images/toggle_button/MusicOn.png",
+	width:"45%",
+	bool:true,
+	right:0
+}
+
+"#shareIcon":{
+	
+	backgroundImage:'/images/ShareIcon.png',
+	height:'75%',
+	width:'15%'
+}
+
+"#shareIcon[platform=ios formFactor=tablet]":{
+	
+	backgroundImage:'/images/ShareIcon.png',
+	height:'65%',
+	width:'10%'
+}
+
+"#rateUsIcon":{
+	
+	backgroundImage:'/images/RateIcon.png',
+	height:'65%',
+	width:'15%'
+}
+
+"#rateUsIcon[platform=ios formFactor=tablet]":{
+	
+	backgroundImage:'/images/RateIcon.png',
+	height:'65%',
+	width:'10%'
+}
+
+
+"#privacyIcon":{
+	
+	backgroundImage:'/images/PrivacyIcon.png',
+	height:'65%',
+	width:'14%'
+}
+
+"#privacyIcon[platform=ios formFactor=tablet]":{
+	
+	backgroundImage:'/images/PrivacyIcon.png',
+	height:'65%',
+	width:'10%'
+}
+
+"#visitUsIcon":{
+	
+	backgroundImage:'/images/VisitIcon.png',
+	height:'65%',
+	width:'10%'
+}
+
+"#visitUsIcon[platform=ios formFactor=tablet]":{
+	
+	backgroundImage:'/images/VisitIcon.png',
+	height:'65%',
+	width:'8%'
+}
+
+
+
+"#emailUsIcon":{
+	
+	backgroundImage:'/images/EmailIcon.png',
+	height:'48%',
+	width:'16%'
+}
+
+"#emailUsIcon[platform=ios formFactor=tablet]":{
+	
+	backgroundImage:'/images/EmailIcon.png',
+	height:'48%',
+	width:'11%'
+}
+
+/*********buttonView*********/
+ 
+"#facebook[platform=ios]":{
+	top:"2%", 
+	borderRadius:"15", 
+	backgroundImage:"/images/FbBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#facebook[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/FbBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#twitter[platform=ios]":{
+	top:"2%",  
+	borderRadius:"15", 
+	backgroundImage:"/images/TwitterBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#twitter[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/TwitterBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#share[platform=ios]":{
+	top:"2%", 
+	borderRadius:"15", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#share[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#rateUs[platform=ios]":{
+	top:"2%",  
+	borderRadius:"15", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#rateUs[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#privacyPolicy[platform=ios]":{
+	top:"2%",  
+	borderRadius:"15", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#privacyPolicy[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#subscribe[platform=ios]":{
+	top:"2%", 
+	borderRadius:"15", 
+	backgroundImage:"/images/SubscribeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#subscribe[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/SubscribeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#visitUs[platform=ios]":{
+	top:"2%", 
+	borderRadius:"15", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#visitUs[platform=android]":{
+	top:"2%", 
+	borderRadius:"30", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	}
+}
+
+"#emailUs[platform=ios]":{
+	top:"2%",  
+	borderRadius:"15", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	},
+	bottom:15
+}
+
+"#emailUs[platform=android]":{
+	top:"2%",  
+	borderRadius:"30", 
+	backgroundImage:"/images/OrangeBtn.png",
+	font:{
+		fontSize: '40',
+		fontFamily:'Cheeseburger'
+	},
+	bottom:15
+}
+
+"#subscribeIcon":{
+	backgroundImage:'/images/SubscribePuzzleIcon.png',
+	height:'65%',
+	width:'14%'
+}
+
+"#subscribeIcon[formFactor=tablet]":{
+	backgroundImage:'/images/SubscribePuzzleIcon.png',
+	height:'65%',
+	width:'10%'
+}
+
+"#subscribeLbl[platform=ios formFactor=handheld]":{
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '20%'
+	},
+	color:'white',
+	left:'30%',
+	touchEnabled:false,
+}
+
+"#subscribeLbl[platform=ios formFactor=tablet]":{
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '35%'
+	},
+	color:'white',
+	left:'30%',
+	touchEnabled:false,
+}
+
+"#subscribeLbl[platform=android formFactor=handheld]":{
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '20'
+	},
+	color:'white',
+	left:'30%',
+	touchEnabled:false,
+}
+
+"#subscribeLbl[platform=android formFactor=tablet]":{
+	font:{
+		fontFamily: 'Cheeseburger',
+		fontSize: '28'
+	},
+	color:'white',
+	left:'30%',
+	touchEnabled:false,
+}
+
+"#anotherView":
+{
+	visible: false
+}
+
+
+

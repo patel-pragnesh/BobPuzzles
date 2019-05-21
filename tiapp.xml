@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.usp.bobpuzzles</id>
+    <name>Bob the Train Puzzles</name>
+    <version>3.8</version>
+    <publisher>uspapps2</publisher>
+    <url>undefined</url>
+    <description>undefined</description>
+    <copyright>2018 by uspapps2</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>1415f1bf-4b74-4260-9222-85802e87680c</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>false</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>NSPhotoLibraryUsageDescription</key>
+                <string>This app requires access to the photo library to create custom puzzles.</string>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <tool-api-level>26</tool-api-level>
+        <manifest android:versionCode="15" android:versionName="1.1">
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <uses-permission android:name="com.android.vending.BILLING"/>
+            <application>
+                <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+                <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+                <service android:enabled="true" android:exported="false"
+                    android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+                <service android:exported="false" android:name="com.usp.bobpuzzles.gcm.RegistrationIntentService"/>
+                <receiver android:enabled="true" android:name="com.google.android.gms.measurement.AppMeasurementReceiver">
+                    <intent-filter>
+                        <action android:name="com.google.android.gms.measurement.UPLOAD"/>
+                    </intent-filter>
+                </receiver>
+                <!-- Only add the GCM-related tags if you are using push notifications as well -->
+                <service android:exported="false" android:name="com.usp.bobpuzzles.gcm.GcmIntentService">
+                    <intent-filter>
+                        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                    </intent-filter>
+                </service>
+                <service android:exported="false" android:name="com.usp.bobpuzzles.gcm.GcmIntentService">
+                    <intent-filter>
+                        <action android:name="com.google.android.c2dm.intent.SEND"/>
+                    </intent-filter>
+                </service>
+                <service android:exported="false" android:name="com.usp.bobpuzzles.gcm.GcmIDListenerService">
+                    <intent-filter>
+                        <action android:name="com.google.android.gms.iid.InstanceID"/>
+                    </intent-filter>
+                </service>
+                <activity
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:label="SAFullscreenVideoAd"
+                    android:name="tv.superawesome.sdk.publisher.SAVideoAd" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+                <activity
+                    android:configChanges="keyboardHidden|orientation|screenSize"
+                    android:label="SAInterstitialAd"
+                    android:name="tv.superawesome.sdk.publisher.SAInterstitialAd" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+            </application>
+        </manifest>
+    </android>
+    <modules>
+        <module platform="android">ti.admob</module>
+        <module platform="iphone">firebase.core</module>
+        <module platform="android">hyperloop</module>
+        <module platform="android">ti.inappbilling</module>
+        <module platform="iphone">net.birdirbir.admobrewarded</module>
+        <module platform="iphone">dk.napp.social</module>
+        <module platform="iphone">ti.admob</module>
+        <module platform="iphone">ti.reviewdialog</module>
+        <module platform="android">bencoding.android.tools</module>
+        <module platform="iphone">firebase.analytics</module>
+        <module platform="iphone">com.example.test</module>
+        <module platform="commonjs">ti.cloud</module>
+        <module platform="iphone">hyperloop</module>
+        <module platform="iphone">ti.storekit</module>
+        <module platform="iphone">com.usp.superawesome</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+    </deployment-targets>
+    <sdk-version>7.5.1.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5c7f931a40408a6b8a076997</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">f7M3zDJcIzraU6jzESh7lWYWEiPEmBY2</property>
+    <property name="acs-oauth-key-development" type="string">rFhGODMipXE2g7e6h9LeO3aimWS67rn5</property>
+    <property name="acs-api-key-development" type="string">q5FFhz6KB7Hg7RiF3Hjlq0NFturlUfjr</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">RyDj3BmXuAYhDjPpPN</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">FwsN3MdztwV3TQFtRCWtXDlli6KgYXe1</property>
+    <property name="acs-oauth-key-production" type="string">KSTiHC6PeTrPy5SaAAY7FCPLDItBMvLz</property>
+    <property name="acs-api-key-production" type="string">GfojOEdiUjDJGGbeXmINqj757NA3xOiT</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">qgckS3yJXrbhWNohdL</property>
+    <property name="appc-org-id" type="string">331647958921860</property>
+    <property name="appc-creator-user-id" type="string">6e8d8b4e-05d3-417f-91d2-209cb66e8668</property>
+</ti:app>
